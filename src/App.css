@@ -1,0 +1,189 @@
+.App {
+    text-align: center;
+  }
+  
+  .main-container {
+    display: flex;
+    height: 600px;
+  }
+  .headder {
+    background-color: rgba(255, 0, 234, 0.333);
+    margin-bottom: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .headder button {
+    /* margin-right: 5px; */
+    /* height: fit-content; */
+  
+    font-size: 15px;
+    padding: 7px 10px;
+    text-shadow: none;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(172, 243, 97);
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* sideBarTexts */
+  .sideBarTexts {
+    color: black;
+    cursor: pointer;
+    ;
+  }
+  .sidebar {
+    padding: 2%;
+    width: 300px;
+    height: auto;
+    background-color: rgba(243, 159, 239, 0.354);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* border: 5px solid aqua; */
+    box-shadow: 2px 2px 5px 2px rgb(47, 25, 25);
+  }
+  .sidebar .active {
+    background-color: rgba(150, 226, 236, 0.779);
+  }
+  .habbit-container {
+    margin: 1%;
+    height: auto;
+    min-width: 80%;
+    background-color:rgba(243, 159, 239, 0.354);
+    border-radius: 15px;
+    /* border: 5px solid aqua; */
+    box-shadow: 2px 2px 5px 2px rgb(79, 56, 56);
+    overflow: auto;
+  }
+  .hbt-container {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+  
+  .habbit {
+    width: 400px;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(60, 246, 246, 0.7);
+    border-radius: 5px;
+    margin: 10px;
+    /* border: 2px solid aqua; */
+    box-shadow: 2px 2px 5px 2px lightgray;
+  }
+  
+  .habbit span {
+    width: 70%;
+    min-width: 260px;
+    max-width: 270px;
+    padding: 5px;
+    /* background-color: rgb(28, 215, 43); */
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .habbit img {
+    width: 10%;
+    padding: 5px;
+  }
+  .habbit button {
+    /* width: 10%; */
+    padding: 5px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 7px 10px;
+    text-shadow: none;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .habbit button:hover {
+    background-color: orange;
+  }
+  .user-con {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1rem; */
+    /* background-color: rgb(28, 215, 43, 0.10); */
+  }
+  .user-con img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fcf6f9;
+    border: 2px solid #ffffff;
+    padding: 0.2rem;
+    box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.06);
+  }
+  .user-con h2 {
+    color: rgba(34, 34, 96, 1);
+  }
+  .user-con p {
+    color: rgba(34, 34, 96, 0.6);
+  }
+  
+  /* Progress component from here */
+  
+  .outer {
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    /* width: 580px; */
+    /* background-color: black; */
+    border: 2px solid black;
+    /* box-shadow: 0, 0, 2px, black; */
+  }
+  
+  .outer .title-box {
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+  .title-box span,
+  .title-box svg {
+    /* background-color: red; */
+    padding: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .week-boxs-container {
+    display: flex;
+    /* width: 580px; */
+    background-color: aqua;
+  }
+  
+  .week-box {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 80px;
+    background-color: white;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .week-box :hover {
+    transform: scale(1.15);
+    transition: ease-in-out;
+  }
+  .week-status {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
